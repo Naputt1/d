@@ -1,0 +1,102 @@
+.navbar{
+    position: relative;
+    width: 1110px;
+    height: 48px;
+}
+.navbar-bg{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+}
+.navbar-bg-dark{
+    background-color: #343A40;
+    border-radius: 4px;
+}
+.navbar-bg-regular{
+    background-color: #F8F9FA;
+    border-radius: 4px;
+}
+.navigation-item{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.landingPage{
+    position: relative;
+    width: 1110px;
+    height: 1000px;
+
+    background: #FFFFFF;
+}
+.welcome{
+    position: absolute;
+    width: 173px;
+    height: 44px;
+    left: 468px;
+    top: 202px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;color: #152536;
+}
+.E-mail{
+    position: absolute;
+    width: 48px;
+    height: 21px;
+    left: 346px;
+    top: 268px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+}
+.password{
+    position: absolute;
+    width: 74px;
+    height: 21px;
+    left: 345px;
+    top: 357px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+}
+.inputSuccess{
+    box-sizing: border-box;
+
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    background: #FFFFFF;
+
+    border: 1px solid #28A745;
+    border-radius: 4px;
+}
+.Navbar{
+    position: absolute;
+    left: 1.26%;
+    right: 92.34%;
+    top: 22.92%;
+    bottom: 27.08%;
+}
+.navigation-link{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
