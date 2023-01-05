@@ -1,7 +1,8 @@
+
 .navbar{
     position: relative;
     width: auto;
-    height: 48px;
+    height: 4.8vh;
 }
 .navbar-bg{
     position: absolute;
@@ -37,13 +38,13 @@
     position: absolute;
     width: 173px;
     height: 44px;
-    left: 468px;
+    left: calc(1560vw/37);
     top: 202px;
     
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
-    font-size: 36px;
+    font-size: calc(120vw/37);
     line-height: 44px;color: #152536;
 }
 .E-mail{
