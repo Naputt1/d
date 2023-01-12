@@ -35,16 +35,14 @@
     background: #FFFFFF;
 }
 .welcome{
-    position: absolute;
-    width: 173px;
-    height: 44px;
-    left: calc(1560vw/37);
-    top: 202px;
+    text-align: center;
+    padding: 202px;
+
     
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
-    font-size: calc(120vw/37);
+    font-size: 36px;
     line-height: 44px;color: #152536;
 }
 .E-mail{
