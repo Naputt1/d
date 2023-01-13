@@ -1,6 +1,6 @@
 .navbar{
     position: relative;
-    width: 1110px;
+    width: 100vw;
     height: 48px;
 }
 .navbar-bg{
@@ -34,12 +34,6 @@
     background: #FFFFFF;
 }
 .welcome{
-    position: absolute;
-    width: 173px;
-    height: 44px;
-    left: 468px;
-    top: 202px;
-    
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
@@ -47,11 +41,7 @@
     line-height: 44px;color: #152536;
 }
 .E-mail{
-    position: absolute;
-    width: 48px;
-    height: 21px;
-    left: 346px;
-    top: 268px;
+
 
     font-family: 'Inter';
     font-style: normal;
@@ -60,11 +50,7 @@
     line-height: 21px;
 }
 .password{
-    position: absolute;
-    width: 74px;
-    height: 21px;
-    left: 345px;
-    top: 357px;
+
 
     font-family: 'Inter';
     font-style: normal;
@@ -75,11 +61,6 @@
 .inputSuccess{
     box-sizing: border-box;
 
-    position: absolute;
-    left: 0%;
-    right: 0%;
-    top: 0%;
-    bottom: 0%;
 
     background: #FFFFFF;
 
