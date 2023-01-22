@@ -1,6 +1,7 @@
+
 .navbar{
     position: relative;
-    width: 100vw;
+    width: auto;
     height: 48px;
 }
 .navbar-bg{
@@ -28,35 +29,31 @@
 
 .landingPage{
     position: relative;
-    width: 1110px;
-    height: 1000px;
+    height: 904px;
+    width: 100vw;
 
     background: #FFFFFF;
 }
 .welcome{
+    text-align: center;
+
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
     font-size: 36px;
-    line-height: 44px;color: #152536;
+    line-height: 44px;
+    color: #152536;
 }
-.E-mail{
-
-
+.input-label{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 21px;
-}
-.password{
 
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 21px;
+    color: #152536;
 }
 .inputSuccess{
     box-sizing: border-box;
@@ -66,6 +63,37 @@
 
     border: 1px solid #28A745;
     border-radius: 4px;
+
+    width: 100%;
+    height: 38px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));}
+.Search{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 154px;
+    height: 38px;
+
+    background: #FFFFFF;
+
+    border: 1px solid #DEE2E6;
+    border-radius: 4px;
+    padding-left: 15px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 12px;
+}
+.Search::placeholder{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    position: absolute;
+    width: 37px;
+    height: 14px;
+
+    color: #ABB5BE;
 }
 .Navbar{
     position: absolute;
@@ -74,10 +102,143 @@
     top: 22.92%;
     bottom: 27.08%;
 }
-.navigation-link{
+.navigation-links{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
+}
+.top-link{
+    position: absolute;
+    right: auto;
+    left: 127px;
+    top: 16px;
+
+    width: 259px;
+    height: 16px;
+}
+.bottom-link{
+    position: absolute;
+    width: 279px;
+    height: 16px;
+    left: auto;
+    right: 83px;
+    top: 16px;
+
+}
+.navbar-label{
+    position: absolute;
+    left: 14px;
+    right: auto;
+    top: 11px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.Search-button{
+    position: absolute;
+    width: 71px;
+    height: 37px;
+    right: 0px;
+    top: 0px;
+    border-radius: 4px;
+    background-color: #343A40;
+    text-align: center;    
+    padding-bottom: 12px !important;
+}.kls{
+    width: 37px;
+    height: 14px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #28A745;
+}
+.login-button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    width: 75px;
+    height: 39px;
+
+    background: #6C757D;
+    border-radius: 4px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+.not-home{
+    margin-left: 25px;
+
+    color: #ABB5BE;
+}
+.landingPage-content{
+    width: 420px;
+    height: 337;
+    margin: 154px auto auto auto;
+}
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+@media (width <= 640px){
+    .top-link{
+        right: 258px;
+        left: auto;
+    }
+}
+
+@media (width <= 627px){
+    .navbar-label{
+        left: 5px;
+    }
+}
+/* .navigation-links > a:nth-child(n-2){
+    margin-left: 25px;
+} */
+@media (width <= 625){
+    .Search{
+        width: calc(154%/width);
+    }
+}
+
+@media (width <= 610px){
+    .top-link{
+        display: none;
+    }
+}
+
+@media (width <= 457px){
+    .bottom-link{
+        left: 80px;
+        right: auto;
+    }
+}
+@media (width <=430px){
+    .landingPage-content{
+        width: 98vw;
+    }
+
+    .inputSuccess{
+        width: 94vw;
+    }
+}
+@media (width <= 370px) {
+    .not-home{
+        margin-left: 20px;
+    }
 }
