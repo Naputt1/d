@@ -234,7 +234,7 @@ a:active { text-decoration: none; }
     }
 
     .inputSuccess{
-        width: 94vw;
+        width: 98vw;
     }
 }
 @media (width <= 370px) {
