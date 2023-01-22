@@ -220,6 +220,9 @@ a:active { text-decoration: none; }
     .top-link{
         display: none;
     }
+    .navbar-label{
+        left: 14px;
+    }
 }
 
 @media (width <= 457px){
