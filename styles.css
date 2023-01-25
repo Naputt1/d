@@ -195,14 +195,14 @@ a:link { text-decoration: none; }
 a:visited { text-decoration: none; }
 a:hover { text-decoration: none; }
 a:active { text-decoration: none; }
-@media (width <= 640px){
+@media (min-width <= 640px){
     .top-link{
         right: 258px;
         left: auto;
     }
 }
 
-@media (width <= 627px){
+@media (min-width <= 627px){
     .navbar-label{
         left: 5px;
     }
@@ -210,25 +210,25 @@ a:active { text-decoration: none; }
 /* .navigation-links > a:nth-child(n-2){
     margin-left: 25px;
 } */
-@media (width <= 625){
+@media (min-width <= 625){
     .Search{
         width: calc(154%/width);
     }
 }
 
-@media (width <= 610px){
+@media (min-width <= 610px){
     .top-link{
         display: none;
     }
 }
 
-@media (width <= 457px){
+@media (min-width <= 457px){
     .bottom-link{
         left: 80px;
         right: auto;
     }
 }
-@media (width <=430px){
+@media (min-width <=430px){
     .landingPage-content{
         width: 98vw;
     }
@@ -237,7 +237,7 @@ a:active { text-decoration: none; }
         width: 94vw;
     }
 }
-@media (width <= 370px) {
+@media (min-width <= 370px) {
     .not-home{
         margin-left: 20px;
     }
